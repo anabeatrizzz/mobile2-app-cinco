@@ -5,7 +5,7 @@
 * [Ajuda](#ajuda)
 * [Como contribuir](#como-contribuir)
 
-Este é o [quinto aplicativo](https://youtu.be/LfXmwvbFOvM) que desenvolvo para a disciplina Programação de Aplicativos Mobile II do curso de Desenvolvimento de Sistemas da [ETEC de Itanhaém](etecitanhaem.com.br) e...
+Este é o [quinto aplicativo](https://youtu.be/LfXmwvbFOvM) que desenvolvo para a disciplina Programação de Aplicativos Mobile II do curso de Desenvolvimento de Sistemas da [ETEC de Itanhaém](https://www.etecitanhaem.com.br/) e...
 
 # [O que aprendi? :thinking:](#índice)
 - O uso de âncoras no React Native se dá pelo `Linking`.
