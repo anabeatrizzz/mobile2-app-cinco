@@ -56,7 +56,7 @@ export default class App extends Component {
 								)
 							}
 						</TableWrapper>
-
+						
 					</Table>
 				</View>
 			)
