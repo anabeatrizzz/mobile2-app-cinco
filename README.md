@@ -14,7 +14,7 @@ Este é o [quinto aplicativo](https://youtu.be/LfXmwvbFOvM) que desenvolvo para 
 
 <a href="#índice"><h1 align="center">Tela</h1></a>
 <p align="center">
-  <img alt="Em breve" width="100" src="#" />
+  <kbd><img width="300" src="https://i.ibb.co/6mgkPbj/mobile2-app-cinco.png" /></kbd>
 </p>
 
 # [Instalação](#índice)
