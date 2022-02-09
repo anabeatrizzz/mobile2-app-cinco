@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, Linking } from 'react-native';
 import { Table, TableWrapper, Row } from 'react-native-table-component';
-import styles from './App.css.js';
+import styles from './App.css';
 
 export default function App() {
   const [tableContent, setTableContent] = useState({
@@ -23,6 +23,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text
+        testID="external-link-text"
         onPress={() => Linking.openURL("https://youtu.be/cAVgKdbDlRY")}
         style={styles.titleTxt}
       >

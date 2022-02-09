@@ -5,9 +5,24 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "verbose": true,
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+    ]
   },
   "dependencies": {
+    "@testing-library/react-native": "^9.0.0",
     "expo": "~39.0.2",
     "expo-status-bar": "~1.0.2",
     "jest": "^27.5.1",
@@ -19,9 +34,14 @@
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
     "@types/react-native": "^0.66.15",
-    "@types/react-native-table-component": "^1.2.3"
+    "@types/react-native-table-component": "^1.2.3",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.5.1",
+    "react-test-renderer": "16"
   },
   "private": true
 }
