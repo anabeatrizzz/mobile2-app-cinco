@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const estilos = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 18,
@@ -9,38 +9,43 @@ const estilos = StyleSheet.create({
     justifyContent: 'center'
   },
 
-  cabecalho: {
+  header: {
     height: 50,
     alignContent: 'center',
     backgroundColor: '#bf80ff'
   },
 
-  textoTabela: {
+  tableTxt: {
     margin: 10
   },
 
-  textoCabecalho: {
+  headerTxt: {
     color: 'white',
     textAlign: 'center',
     fontWeight: 'bold'
   },
 
-  textoLinhas: {
+  rowsTxt: {
     textAlign: 'center'
   },
 
-  linhas: {
+  rows: {
     height: 55
   },
 
-  textoTitulo: {
+  titleTxt: {
     color: '#9933ff',
     fontSize: 20,
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 5,
     textDecorationLine: 'underline'
+  },
+
+  tableBorder: {
+    borderWidth: 1,
+    borderColor: 'white'
   }
 })
 
-export default estilos;
+export default styles;
