@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
-    "@babel/preset-typescript": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.5",
     "@types/jest": "^27.4.0",
     "@types/react-native": "~0.64.12",
     "@types/react-native-table-component": "^1.2.4",
